@@ -6,7 +6,7 @@ Data_process: file folder that contains java code which are used to process data
 	CountMR.java: Mapreduce to process the data, it return as week,year  total number of this date; feature:number of tweets related to this feature
 	Normalization.java: normalize the output of CountMR by dividing the number of tweets contains each feature with the total number of tweets in this week.
 
-Models: filed folder that contains python code which are used to build model and test the results
+Models: file folder that contains python code which are used to build model and test the results
 	ElasticNet.py: implement of elastic net regression model and test the performance of this model
 	RidgeRegression.py: implement of ridge regression model and test the performance of this model
 	LassoRegression.py: implement of lasso regression model and test the performance of this model
@@ -16,5 +16,9 @@ Models: filed folder that contains python code which are used to build model and
 	plot_linear_relationship.py: build a linear regression model for ILI rates in control area and pilot area prior vaccination campaign and projected ILI rates in pilot area during and after vaccination period.
 	3_moving_average.py: get the result of 3 moving average of projected ILI rates and estimated ILI rate in vaccination area during and after the vaccination period.
 	absolute_diff_relative_diff.py: two metrics to test the difference between projected ILI rates and estimated ILI rate. T-test to get the p-value of two ILI rates. 
-
+Graph: file folder that contains high quality figures used in report
+	control_vs_pilot_pre.jpg: the comparison of estimated ILI rates in control areas and pilot areas prior the vaccination period
+	estimated_vs_projected.jpg: the comparison of estimated ILI rates and projected ILI rates in pilot areas 24 week prior vaccination period and during and after the campaign
+	slope.jpg: the linear slope of estimated ILI rates in control areas and rates in pilots prior vaccination campaign and during and after the campaign
+	projected_estimate_during.jpg: the comparison of estimated ILI rates and projected ILI rates in pilot areas during and after the vaccination campaign.
 
